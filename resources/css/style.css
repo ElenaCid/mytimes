@@ -19,6 +19,58 @@ nav li {
   list-style: none;
   display: inline-block;
 }
- nav li a {
+nav li a {
    color: black;
    padding: 10px;
+}
+#mainContainer {
+  border: solid black 1px;
+  display: flex;
+}
+#left {
+  border: solid black 1px;
+  display: flex;
+  flex-direction: column;
+}
+#middle {
+  border: solid black 1px;
+  display: flex;
+  flex-direction: column;
+}
+#right {
+  border: solid black 1px;
+  display: flex;
+  flex-direction: column;
+}
+#mainStory {
+  border: solid black 1px;
+  background-image: url("../../resources/images/img-story-main.png");
+}
+#story1 {
+  border: solid black 1px;
+}
+#story2 {
+  border: solid black 1px;
+}
+#story3 {
+  border: solid black 1px;
+}
+#newBites {
+  border: solid black 1px;
+}
+.container {
+  border: solid black 1px;
+}
+.column .large {
+  width: 630px;
+}
+.column .medium {
+  width: 300px;
+}
+.column .small {
+  width: 240px;
+}
+.column {
+  margin-right: 20px;
+  margin-top: 40px;
+}
