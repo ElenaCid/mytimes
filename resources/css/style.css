@@ -1,0 +1,24 @@
+header {
+  display: flex;
+  border-bottom: solid black 1px;
+  justify-content: space-between;
+  padding:10px;
+  font-family: Verdana;
+  font-style: 14px;
+  font-weight: bold;
+  color: MediumAquamarine;
+}
+#topHeader {
+  display: flex;
+  border: solid black 1px;
+}
+#topHeader img {
+  padding-right: 10px;
+}
+nav li {
+  list-style: none;
+  display: inline-block;
+}
+ nav li a {
+   color: black;
+   padding: 10px;
